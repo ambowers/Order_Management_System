@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title>Order Management System</title>
+</head>
+<body>
+    <h2> Place Your Order</h2>
+
+    <label for="product-selector">Select a Product:</label>
+    <select id="product-selector">
+        <option value="30">Sunglasses Model - SunSeeker: $30</option>
+        <option value="35">Sunglasses Model - Solar Glare: $35</option>
+        <option value="40">Sunglasses Model - Shoreline Stroll: $40</option>
+    </select>
+    <label for="quantity">Quantity:</label>
+    <input type="number" id="quantity" value="1" min="1">
+
+    <p> Total Price: $<span id="total-price">30</span></p>
+
+    <script src="main.js"></script>
+</body>
+</html>
